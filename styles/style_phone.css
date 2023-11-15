@@ -1,0 +1,245 @@
+
+@media (max-width: 400px) {
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+  body {
+    max-width: 400px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    background-image: url('../img/background.jpg'), none;
+    
+
+  }
+  
+
+
+/*Header */
+
+#header{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    max-width: inherit;
+}
+
+#logo{
+    margin-top: 10px;
+    height: 35px;
+    width: 60px;
+}
+
+/*Header */
+
+/*Home */
+
+#title{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+h4{
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Habibi';
+    font-weight: 200;
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color: rgb(222, 222, 222);
+}
+
+h1{
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Habibi';
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+#horoskope{
+    max-width: inherit;
+    margin: 15px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+  
+
+.horoskope-element
+{
+    flex: 0 0 calc(33.333%); /* Three items per row with spacing */
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0;
+    align-items: center;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+}
+
+label{
+    margin-top: 10px;
+    align-self: center;
+    font-size: 18px;
+    font-family: 'Marck Script';
+    color: #fff;
+}
+
+/*Home */
+
+/*Info */
+
+#main{
+    margin: 10px auto 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+#info{
+    margin: 0;
+    padding: 10px;
+    background-color: #291e46;
+    border-radius: 4px;
+    border: 2px solid rgb(112, 92, 158);
+}
+#horo{
+    background-color: transparent;
+    display: flex;
+}
+
+#horo-img{
+    margin: 10px 30px 0 10px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    align-items: baseline;
+}
+
+#info-additional{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    background-color: transparent;
+}
+
+#horo-label{
+ background-color: transparent;
+ margin: 0 0 20px 0;
+ font-size: 24px;
+}
+
+#horo-date{
+    background-color: transparent;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #fff;
+}
+
+#text{
+    margin-top: 5px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 220%;
+    font-size: 16px;
+    letter-spacing: 4%;
+    color: #d7d7d7;
+}
+
+#back{
+    font-family: 'Roboto';
+    background-color: transparent;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(251, 127, 255);
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    max-width: inherit;
+    background-color: transparent;
+}
+
+#sidebar-ad{
+    display:inline-block;
+    max-width: 400px;
+    height: 90px;
+    margin: 20px auto 0 auto;
+}
+
+
+/*Info */
+
+/*AD */
+
+#ad{
+    display:inline-block;
+    max-width: 400px;
+    height: 90px;
+    margin: 20px auto 0 auto;
+}
+
+/*AD */
+
+
+/*Footer */
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin: 10px 0 0 0;
+    background-color: rgb(46, 20, 46);
+    color: #FFF;
+    font-size: 16px;
+}
+
+}
+/*Footer */

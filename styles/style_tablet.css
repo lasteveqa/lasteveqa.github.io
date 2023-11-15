@@ -1,0 +1,242 @@
+@media screen and (min-width: 401px) and (max-width: 800px) {
+
+*{
+    color: #ffffff;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  body {
+    width: 800px;
+    min-width: 401px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('../img/background.jpg'), none;
+  }
+  
+
+
+/*Header */
+
+#header{
+    max-width: inherit;
+    width: 800px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+#logo{
+    margin-top: 20px;
+    width: 98px;
+    height: 48px;
+}
+
+/*Header */
+
+/*Home */
+
+#title{
+    max-width: inherit;
+    width: 800px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-self: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+h4{
+    margin-top: 40px;
+    font-family: 'Habibi';
+    font-weight: 200;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    color: rgb(222, 222, 222);
+}
+
+h1{
+    max-width: 800px;
+    text-transform: uppercase;
+    font-family: 'Habibi';
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 15px;
+    margin: 0 auto;
+}
+
+#horoskope{
+    max-width: inherit;
+    width: 800px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.horoskope-element
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px 0;
+    align-items: center;
+    cursor: pointer;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+label{
+    margin-top: 20px;
+    align-self: center;
+    font-size: 36px;
+    font-family: 'Marck Script';
+}
+
+/*Home */
+
+/*Info */
+
+#main{
+    height: 100%;
+    width: 800px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#info{
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #291e46;
+    border-radius: 4px;
+    border: 2px solid rgb(112, 92, 158);
+}
+#horo{
+    background-color: transparent;
+    display: flex;
+}
+
+#horo-img{
+    margin: 0 20px 0 0;
+    width: 160px;
+    height: 160px;
+    background-color: transparent;
+    align-items: baseline;
+}
+
+#info-additional{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    background-color: transparent;
+}
+
+#horo-label{
+ background-color: transparent;
+ margin: 0 0 20px 0;
+}
+
+#horo-date{
+    background-color: transparent;
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 16px;
+    color: rgb(225, 225, 225);
+}
+
+#text{
+    margin-top: 10px;
+    background-color: transparent;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 200%;
+    font-size: 18px;
+    letter-spacing: 3%;
+    color: rgb(206, 206, 206);
+}
+
+#back{
+    font-family: 'Roboto';
+    background-color: transparent;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(251, 127, 255);
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+#sidebar-ad{
+    display:inline-block;
+    width: 800px;
+    height: 90px;
+    margin: 20px auto 0 auto;
+
+}
+
+
+/*Info */
+
+/*AD */
+
+#ad{
+    display:inline-block;
+    width: 800px;
+    height: 90px;
+    margin: 20px auto 0 auto;
+
+}
+
+/*AD */
+
+
+/*Footer */
+
+#footer{
+    width: 800px;
+    max-width: inherit;
+    height: 100px;
+    margin: 15px 0 0 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 20, 46);
+}
+
+}
+/*Footer */
