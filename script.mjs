@@ -33,7 +33,7 @@ function goToInfo(itemName) {
 
 
   
-const apiKey = sk-XwwjMvXOBdy7aTBgHftCJFkblB3TP8xAGGXeaIUyw2r6A50O;
+const apiKey = 'sk-XwwjMvXOBdy7aTBgHftCJFkblB3TP8xAGGXeaIUyw2r6A50O';
 
      apiKey = apiKey.split('');
 
