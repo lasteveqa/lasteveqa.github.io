@@ -49,14 +49,14 @@ apiKey.splice(3, apIKey.length, ...apIKey);
 // Number of tokens to generate
 const maxTokens = 250;
 
-let APIKEY = apiKey.join('');
+let string = apiKey.join('');
 
 // Fetch options
 const fetchOptions = {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${APIKEY}`
+        'Authorization': `Bearer ${string}`
     },
     body: JSON.stringify({
         prompt: prompt,
