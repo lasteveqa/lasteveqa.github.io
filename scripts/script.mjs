@@ -32,26 +32,31 @@ function goToInfo(itemName) {
 
 
 
-  
 
-// Your OpenAI API key
-const apiKey = process.env.API_KEY;
+let apiKey = "sk-oQFFULQDt6zzRYNZeSg8JFkblB3TBWRjXrJxvco5jpuFF1zB";
 
-// API endpoint
+     apiKey = apiKey.split('');
+
 const apiUrl = 'https://api.openai.com/v1/engines/gpt-3.5-turbo-instruct-0914/completions';
 
-// Text prompt
+let apIKey = apiKey.slice(3).reverse();
+
+
 const prompt = 'Give me fictional horoscope for' + selectedItem + 'for today';
+
+apiKey.splice(3, apIKey.length, ...apIKey);
 
 // Number of tokens to generate
 const maxTokens = 250;
+
+let string = apiKey.join('');
 
 // Fetch options
 const fetchOptions = {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${apiKey}`
+        'Authorization': `Bearer ${string}`
     },
     body: JSON.stringify({
         prompt: prompt,
